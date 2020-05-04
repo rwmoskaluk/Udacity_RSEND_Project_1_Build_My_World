@@ -14,7 +14,7 @@
         </inertia>
         <pose frame=''>0 0 0 0 -0 0</pose>
       </inertial>
-      <pose frame=''>-0 0.5 0.4 -0 -0 -0</pose>
+      <pose frame=''>0 0.5 0.3 0 -0 0</pose>
       <gravity>1</gravity>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
@@ -23,7 +23,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.6 0.5 0.05</size>
+            <size>0.7 0.7 0.05</size>
           </box>
         </geometry>
         <material>
@@ -49,7 +49,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.5 0.5 0.05</size>
+            <size>0.7 0.7 0.05</size>
           </box>
         </geometry>
         <surface>
@@ -99,7 +99,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_3'>
+    <link name='link_0'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -110,15 +110,15 @@
           <iyz>0</iyz>
           <izz>0.125</izz>
         </inertia>
-        <pose frame=''>0 0 0.3 0 -0 0</pose>
+        <pose frame=''>0 0 0 0 -0 0</pose>
       </inertial>
-      <pose frame=''>0.25 0.22 0.4 1.571 -0 0</pose>
+      <pose frame=''>-0.250189 0.875048 0.300006 8e-06 -0 0.000261</pose>
       <gravity>1</gravity>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
       <enable_wind>0</enable_wind>
       <visual name='visual'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0 0 0 1.571 -0 0</pose>
         <geometry>
           <cylinder>
             <radius>0.1</radius>
@@ -145,7 +145,7 @@
       <collision name='collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0 0 0 1.571 -0 0</pose>
         <geometry>
           <cylinder>
             <radius>0.1</radius>
@@ -199,7 +199,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_3_clone'>
+    <link name='link_0_clone'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -210,15 +210,15 @@
           <iyz>0</iyz>
           <izz>0.125</izz>
         </inertia>
-        <pose frame=''>0 0 0.3 0 -0 0</pose>
+        <pose frame=''>0 0 0 0 -0 0</pose>
       </inertial>
-      <pose frame=''>-0.25 0.22 0.4 1.57101 -0 0.001121</pose>
+      <pose frame=''>-0.249987 0.124796 0.3 1.6e-05 -0 0.000522</pose>
       <gravity>1</gravity>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
       <enable_wind>0</enable_wind>
       <visual name='visual'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0 0 0 1.571 -0 0</pose>
         <geometry>
           <cylinder>
             <radius>0.1</radius>
@@ -245,7 +245,7 @@
       <collision name='collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0 0 0 1.571 -0 0</pose>
         <geometry>
           <cylinder>
             <radius>0.1</radius>
@@ -299,7 +299,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_4'>
+    <link name='link_0_clone_0'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -312,13 +312,13 @@
         </inertia>
         <pose frame=''>0 0 0 0 -0 0</pose>
       </inertial>
-      <pose frame=''>0.25 0.78 0.4 1.571 -0 0</pose>
+      <pose frame=''>0.249987 0.875204 0.3 1.6e-05 -0 0.000522</pose>
       <gravity>1</gravity>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
       <enable_wind>0</enable_wind>
       <visual name='visual'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0 0 0 1.571 -0 0</pose>
         <geometry>
           <cylinder>
             <radius>0.1</radius>
@@ -345,7 +345,7 @@
       <collision name='collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0 0 0 1.571 -0 0</pose>
         <geometry>
           <cylinder>
             <radius>0.1</radius>
@@ -399,7 +399,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_4_clone'>
+    <link name='link_0_clone_0_clone'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -412,13 +412,13 @@
         </inertia>
         <pose frame=''>0 0 0 0 -0 0</pose>
       </inertial>
-      <pose frame=''>-0.25 0.78 0.4 1.57101 -0 0.001121</pose>
+      <pose frame=''>0.250176 0.124899 0.3 2.4e-05 -0 0.000783</pose>
       <gravity>1</gravity>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
       <enable_wind>0</enable_wind>
       <visual name='visual'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0 0 0 1.571 -0 0</pose>
         <geometry>
           <cylinder>
             <radius>0.1</radius>
@@ -445,7 +445,7 @@
       <collision name='collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0 0 0 1.571 -0 0</pose>
         <geometry>
           <cylinder>
             <radius>0.1</radius>
@@ -499,12 +499,44 @@
         </surface>
       </collision>
     </link>
-    <joint name='link_3_JOINT_0' type='revolute'>
-      <parent>link_3</parent>
-      <child>link_2</child>
+    <joint name='link_2_JOINT_10' type='revolute'>
+      <parent>link_2</parent>
+      <child>link_0_clone</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
       <axis>
-        <xyz>1 0 0</xyz>
+        <xyz>0 0 1</xyz>
+        <use_parent_model_frame>0</use_parent_model_frame>
+        <limit>
+          <lower>-1.79769e+308</lower>
+          <upper>1.79769e+308</upper>
+          <effort>-1</effort>
+          <velocity>-1</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+          <damping>0</damping>
+        </dynamics>
+      </axis>
+      <physics>
+        <ode>
+          <limit>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </limit>
+          <suspension>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </suspension>
+        </ode>
+      </physics>
+    </joint>
+    <joint name='link_2_JOINT_1' type='revolute'>
+      <parent>link_2</parent>
+      <child>link_0</child>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
           <lower>-1.79769e+308</lower>
@@ -532,12 +564,12 @@
         </ode>
       </physics>
     </joint>
-    <joint name='link_3_clone_JOINT_1' type='revolute'>
-      <parent>link_3_clone</parent>
-      <child>link_2</child>
+    <joint name='link_2_JOINT_8' type='revolute'>
+      <parent>link_2</parent>
+      <child>link_0_clone_0</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
       <axis>
-        <xyz>1 0 0</xyz>
+        <xyz>0 0 1</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
           <lower>-1.79769e+308</lower>
@@ -564,45 +596,12 @@
         </ode>
       </physics>
     </joint>
-    <joint name='link_4_JOINT_1' type='revolute'>
-      <parent>link_4</parent>
-      <child>link_2</child>
+    <joint name='link_2_JOINT_9' type='revolute'>
+      <parent>link_2</parent>
+      <child>link_0_clone_0_clone</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
       <axis>
-        <xyz>1 0 0</xyz>
-        <use_parent_model_frame>0</use_parent_model_frame>
-        <limit>
-          <lower>-1.79769e+308</lower>
-          <upper>1.79769e+308</upper>
-          <effort>-1</effort>
-          <velocity>-1</velocity>
-        </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>0</spring_stiffness>
-          <damping>0</damping>
-          <friction>0</friction>
-        </dynamics>
-      </axis>
-      <physics>
-        <ode>
-          <limit>
-            <cfm>0</cfm>
-            <erp>0.2</erp>
-          </limit>
-          <suspension>
-            <cfm>0</cfm>
-            <erp>0.2</erp>
-          </suspension>
-        </ode>
-      </physics>
-    </joint>
-    <joint name='link_4_clone_JOINT_2' type='revolute'>
-      <parent>link_4_clone</parent>
-      <child>link_2</child>
-      <pose frame=''>0 0 0 0 -0 0</pose>
-      <axis>
-        <xyz>1 0 0</xyz>
+        <xyz>0 0 1</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
           <lower>-1.79769e+308</lower>
