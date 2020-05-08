@@ -1,5 +1,20 @@
 # Udacity_RSEND_Project_1_Build_My_World
-Udacity Robotics Software Engineer Nanodegree project 1
+
+
+[image1]: ./Pictures/Perspective.png "Perspective Gazebo World"
+[image2]: ./Pictures/Perspective_Model.png "Perspective Gazebo World Model"
+[image3]: ./Pictures/Robot.png "Robot Model"
+
+### To Run
+
+```
+mkdir build/
+cd build
+cmake ../
+make
+export GAZEBO_PLUGIN_PATH=${GAZRBO_PLUGIN_PATH}:/home/ryan/Projects/Udacity/Udacity_RSEND_Project_1_Build_My_World/build
+gazebo ../world/created_world
+```
 
 ### Lessons Learned
 
