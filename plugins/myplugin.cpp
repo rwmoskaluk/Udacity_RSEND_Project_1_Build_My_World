@@ -1,4 +1,4 @@
-include <gazebo/gazebo.hh>
+#include <gazebo/gazebo.hh>
 
 namespace gazebo
 {
@@ -6,7 +6,7 @@ namespace gazebo
   {
     public: WorldPluginMyRobot() : WorldPlugin()
             {
-              printf("Hello World!\n");
+              printf("Welcome to Ryan's World!\n");
             }
 
     public: void Load(physics::WorldPtr _world, sdf::ElementPtr _sdf)
